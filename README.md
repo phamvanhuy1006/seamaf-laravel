@@ -27,7 +27,6 @@ Quickly set up skeleton for your Laravel 8.x app
 7. Seed database: `php artisan db:seed`
 8. Open up web server: `php artisan serve`
 9. Browse app: `localhost:8000`
-10. Login using test account: Email: `test@haposoft.com` / Password: `123456789`
 
 ## Technical support:
 - [Skype Group](https://join.skype.com/HxHLdORRW2gO)

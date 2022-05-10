@@ -1,7 +1,9 @@
 <?php
 
+namespace Database\Seeders;
+
 use Illuminate\Database\Seeder;
-use App\User;
+use App\Models\User;
 
 class UsersTableSeeder extends Seeder
 {
@@ -13,8 +15,8 @@ class UsersTableSeeder extends Seeder
     public function run()
     {
         User::create([
-            'name' => 'Hapo Tester',
-            'email' => 'test@haposoft.com',
+            'name' => 'Huy Pham',
+            'email' => 'test@solashi.com',
             'password' => bcrypt('12345678')
         ]);
     }
